@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lab 2 metting minutes</title>
+    <meta charset="utf-8"></meta>
+    <link rel="icon" href="media/icon.png"></link>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Lab2 Meeting Minutes</h1>
+        <h3>HTML and Web development</h2>
+        <h3>4/15/2023</h2>
+      </header>
+
+      <hr>
+
+      <nav class="section">
+        <h2>Navigation</h2>
+        <ul>
+          <li><a href="#Attendance">Attendance</a></li>
+          <li><a href="#Agenda">Agenda</a></li>
+          <li><a href="#Unfinished tasks">Unfinished tasks</a></li>
+          <li><a href="#New tasks">New tasks</a></li>
+          <li><a href="#Miscellaneous">Miscellaneous</a></li>
+          <li><a href="#Meeting recording">Meeting recording</a></li>
+          <li><a href="#Meeting detail">Meeting recording</a></li>
+          <li><a href="#Forms">Forms</a></li>
+        </ul>
+      </nav>
+
+      <hr>
+
+      <section>
+        <h2 id="Attendance">Attendance</h2>
+      </p>CSE110 group 26, all present.</p>
+      </section>
+
+      <br>
+
+      <section>
+        <h2 id="Agenda">Agenda</h2>
+        <p>This is the agenda of CSE110 team meeting on title indicated date.</p>
+        <ul>
+          <li>Html warmup</li>
+          <li>Meeting TA</li>
+          <li>Project discussion</li>
+          <li>Team managment discussion</li>
+        </ul>
+      </section>
+
+      <br>
+
+      <section>
+        <h2 id="Unfinished tasks">Unfinished tasks</h2>
+        <p>Unfinished business from lat meeting. Items here should be processed in order.</p>
+        <ol>
+            <li>Team introduction.</li>
+            <li>Setup weekly meeting time</li>
+        </ol>
+      </section>
+
+      <br>
+
+      <section>
+        <h2 id="New tasks">New tasks</h2>
+        <li>Weekly meeting schedule.</li>
+        <img src="media/schedule.png" alt="weekly meetings" width="200" height="100">
+
+        <li>Learn, discuss the <em>basic</em> of HTML.</li>
+        <details>
+          <summary>Html summary</summary>
+          <p>Learned basic html and how to ues it to construct a simple page.</p>
+        </details>
+
+        <li>Meet TA and learn more about this class, potential projects and technology needed.</li>
+        <details>
+            <summary>Project</summary>
+            <p>Project is gonna be something simple, however teamwork will be very important.</p>
+          </details>
+
+        <li><strong>Discuss structure of the team and the division of labors. (Important item)</strong></li>
+        <details>
+            <summary>Team</summary>
+            <p>we will have 2 team leaders, one for backend one for front-end, the rest of the team will be assigned base on skill set.</p>
+          </details>
+
+      </section>
+
+
+      <br>
+
+      <section>
+        <h2 id="Miscellaneous">Miscellaneous</h2>
+        <p><b>There are no miscellaneous items to be discussed at this moment.</b></p>
+      </section> 
+
+      <br>
+
+      <section>
+        <h2 id="Meeting recording">Meeting recording</h2>
+        <h3>Audio:</h3>
+        <audio controls src="media/audio.mp3">
+          <a href="media/audio.mp3">Download audio</a>
+        </audio>
+        <h3>Video:</h3>
+        <video width="320" height="240" controls>
+          <source src="media/video.mp4" type="video/mp4">
+        </video>
+      </section>
+
+      <br>
+
+      <section>
+        <h2 id="Forms">Forms</h2>
+        
+        <form>
+          <fieldset>
+            <legend>Request adding new items</legend>
+
+            <label for="name">Your name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            
+            <label for="Type">Type:</label><br>
+            <input list="Types" id="Type" name="Type">
+            <datalist id="Types">
+                <option value="Addition">
+                <option value="Deletion">
+            </datalist><br>
+            
+            <label for="request">Request:</label><br>
+            <textarea id="request" name="request" rows="5" cols="33">Your request....</textarea><br>
+
+            <label for="Time">Choose time:</label><br>
+            <select name="Times" id="Time">
+              <option value="1">ASAP</option>
+              <option value="2">This week</option>
+              <option value="3">This month</option>
+            </select><br>
+
+            <button type="Submit">Submit</button>
+
+          </fieldset>
+        </form>
+
+      </section>
+
+      <hr>
+
+      <div class="footer">
+        <footer>
+          <p><span style="color:blue">Author: QuanlingZhao</span></p>
+          <p>This is a psuedo minute mean to be used as a practice for basic html. Some content are from online sources.</p>
+        </footer>
+      </div>
+
+    </main>
+  </body>
+</html>
