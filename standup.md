@@ -16,3 +16,7 @@
 - Today's task
 - Road blocks
 - Other things / comments
+
+
+
+## Additional Notes
